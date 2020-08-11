@@ -2,11 +2,6 @@
 
 :root {
     font-size: 10px;
-    --DarkViolet: hsl(256, 26%, 20%);
-    --GrayishBlue: hsl(216, 30%, 68%);
-    --VeryDarkViolet:  hsl(270, 9%, 17%);
-    --DarkGrayishViolet: hsl(273, 4%, 51%);
-    --VeryLightGray: hsl(0, 0%, 98%);
 }
 
 *, *::before, *::after {
@@ -32,4 +27,45 @@ body {
     font-size: 1.6rem;
     font-family: 'Karla', sans-serif; 
     font-weight: 400;
+}
+
+.container {
+    margin: 0 16.8rem 0 19.25rem;
+    max-width: 1100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    padding: 3.1rem 0;
+}
+nav li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav a,
+nav button {
+    text-decoration: none;
+    margin-left: 2.4rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #837D88
+}
+
+button {
+    width: 146px;
+    height: 40px;
+    background-color: transparent;
+    color: #2C2830;
+    border: 1.5px solid #2C2830;
 }
