@@ -156,3 +156,22 @@ h1 {
     margin: 3.2rem 0 1.6rem 0;
 }
 
+.find-out-more {
+    background: #2D2641 url('../images/bg-pattern-how-we-work-desktop.svg') no-repeat top right;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7rem;
+    margin-bottom: 16.5rem;
+}
+
+.find-out-more h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 5.6rem;
+    letter-spacing: -0.78px;
+    line-height: 1;
+}
+
+
+
