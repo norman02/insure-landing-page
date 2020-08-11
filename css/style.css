@@ -25,13 +25,14 @@
 
 body {
     font-size: 1.6rem;
+    line-height: 1.625;
     font-family: 'Karla', sans-serif; 
     font-weight: 400;
 }
 
 .container {
-    margin: 0 16.8rem 0 19.25rem;
-    max-width: 1100px;
+    margin: 0 16.8rem 0 16.5rem;
+
 }
 
 nav {
@@ -63,9 +64,50 @@ nav button {
 }
 
 button {
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    font-family: 'Karla', sans-serif; 
+    font-weight: 700; 
+    text-transform: uppercase;
     width: 146px;
     height: 40px;
     background-color: transparent;
+    color: white;
+    border: 1.5px solid white;
+}
+
+nav button {
     color: #2C2830;
     border: 1.5px solid #2C2830;
 }
+
+header {
+    color: white;
+    padding-bottom: 30.5rem;
+    background: top #2D2641;
+    
+}
+
+.divider {
+    width: 15rem;
+    border-bottom: 1px solid white;
+}
+
+.intro {
+    padding-top: 10.5rem;
+    display: flex;
+}
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 7.2rem;
+    letter-spacing: -1px;
+    line-height: 0.889;
+    margin: 6.3rem 0 1.6rem 0;
+}
+
+.dark-blue button {
+    margin: 2.4rem 0 12.7rem 0;
+}
+
