@@ -83,8 +83,7 @@ nav button {
 
 header {
     color: white;
-    padding-bottom: 30.5rem;
-    background: top #2D2641;
+    background: linear-gradient(to bottom, #2D2641 0%,#2D2641 50%,#2D2641 50%,white 50%,white 100%);
     
 }
 
@@ -98,6 +97,17 @@ header {
     display: flex;
 }
 
+.intro-right {
+    position: absolute;
+    right: 0;
+    top: 8rem;
+}
+
+.intro-left {
+    position: absolute;
+    top: 41.4rem;
+}
+
 h1 {
     font-family: 'DM Serif Display', serif;
     font-weight: 400;
@@ -107,7 +117,7 @@ h1 {
     margin: 6.3rem 0 1.6rem 0;
 }
 
-.dark-blue button {
+.intro button {
     margin: 2.4rem 0 12.7rem 0;
 }
 
