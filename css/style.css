@@ -77,11 +77,23 @@ button {
     background-color: transparent;
     color: white;
     border: 1.5px solid white;
+}   
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    border-color: #2C2830;
+    color: #2C2830;
 }
 
 nav button {
     color: #2C2830;
     border: 1.5px solid #2C2830;
+}
+
+nav button:hover {
+    background-color: #2C2830;
+    color: white;
 }
 
 header {
@@ -186,8 +198,13 @@ footer {
     border-bottom: 1px solid #DADADA;
 }
 
-.social-container img {
-    margin-right: 1.6rem;
+.social-icon {
+    margin-left: 1.6rem;   
+}
+
+.social:hover {
+    cursor: pointer;
+    fill: #2C2830;;
 }
 
 .footer-links {
