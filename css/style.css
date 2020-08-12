@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
+:root {
+    font-size: 10px;
+}
+
+*, *::before, *::after {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    z-index: 0;
+    box-sizing: border-box;
+} 
+
+
+
+.dmSerif {
+    font-family: 'DM Serif Display', serif;
+}
+
+.karla {
+    font-family: 'Karla', sans-serif;  
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.625;
+    font-family: 'Karla', sans-serif; 
+    font-weight: 400;
+    color: #837D88;
+}
+
+.container {
+    margin: 0 16.8rem 0 16.5rem;
+    max-width: 1500px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    padding: 3.1rem 0;
+}
+nav li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav a,
+nav button {
+    text-decoration: none;
+    margin-left: 2.4rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #837D88
+}
+
+button {
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    font-family: 'Karla', sans-serif; 
+    font-weight: 700; 
+    text-transform: uppercase;
+    width: 146px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: 1.5px solid white;
+}
+
+nav button {
+    color: #2C2830;
+    border: 1.5px solid #2C2830;
+}
+
+header {
+    color: white;
+    background: linear-gradient(to bottom, #2D2641 0%,#2D2641 75%,#2D2641 50%,white 50%,white 100%);
+    
+}
+
+.divider {
+    width: 15rem;
+    border-bottom: 1px solid white;
+}
+
+.intro {
+    padding-top: 10.5rem;
+    display: flex;
+}
+
+.intro-right {
+    position: absolute;
+    right: 0;
+    top: 8rem;
+}
+
+.intro-left {
+    position: absolute;
+    top: 41.4rem;
+}
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 7.2rem;
+    letter-spacing: -1px;
+    line-height: 0.889;
+    margin: 6.3rem 0 1.6rem 0;
+}
+
+.intro button {
+    margin: 2.4rem 0 12.7rem 0;
+}
+
+.different .divider {
+    border-color: #C396C6;
+}
+
+.different h2 {
+    font-family: 'DM Serif Display', serif;
+    color: #2D2641;
+    font-weight: 400;
+    font-size: 7.2rem;
+    letter-spacing: -1px;
+    line-height: 0.889;
+    margin: 6.4rem 0 9.6rem 0;
+}
+
+.different ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 14rem;
+}
+
+.different li {
+    padding-right: 3rem;
+    width: 350px;
+}
+
+.different h3{
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.8rem;
+    font-weight: 400;
+    letter-spacing: -0.39px;
+    color: #2C2830;
+    margin: 3.2rem 0 1.6rem 0;
+}
+
+.find-out-more {
+    background: #2D2641 url('../images/bg-pattern-how-we-work-desktop.svg') no-repeat top right;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7rem;
+    margin-bottom: 16.5rem;
+}
+
+.find-out-more h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 5.6rem;
+    letter-spacing: -0.78px;
+    line-height: 1;
+}
+
+footer {
+    background: #FAFAFA url('../images/bg-pattern-footer-desktop.svg') no-repeat;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 6.4rem 0 3.3rem 0;
+    border-bottom: 1px solid #DADADA;
+}
+
+.social-container img {
+    margin-right: 1.6rem;
+}
+
+.footer-links {
+    display: flex;
+    padding-bottom: 6.4rem;
+}
+
+.footer-links h2 {
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 4.8rem 20rem 3.6rem 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    color: #2D2641;
+    margin-bottom: 1.6rem;
+}
+
+
+
