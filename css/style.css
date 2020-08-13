@@ -15,16 +15,6 @@
     box-sizing: border-box;
 } 
 
-
-
-.dmSerif {
-    font-family: 'DM Serif Display', serif;
-}
-
-.karla {
-    font-family: 'Karla', sans-serif;  
-}
-
 body {
     font-size: 1.6rem;
     line-height: 1.625;
@@ -98,8 +88,7 @@ nav button:hover {
 
 header {
     color: white;
-    background: linear-gradient(to bottom, #2D2641 0%,#2D2641 75%,#2D2641 50%,white 50%,white 100%);
-    
+    background: linear-gradient(to bottom, #2D2641 0%,#2D2641 75%,#2D2641 50%,white 50%,white 100%);  
 }
 
 .divider {
@@ -134,6 +123,10 @@ h1 {
 
 .intro button {
     margin: 2.4rem 0 12.7rem 0;
+}
+
+.portrait {
+    margin-left: 3rem;
 }
 
 .different .divider {
@@ -199,7 +192,7 @@ footer {
 }
 
 .social-icon {
-    margin-left: 1.6rem;   
+    margin-right: 1.6rem;   
 }
 
 .social:hover {
@@ -207,8 +200,10 @@ footer {
     fill: #2C2830;;
 }
 
+
 .footer-links {
     display: flex;
+    justify-content: space-between;
     padding-bottom: 6.4rem;
 }
 
@@ -216,7 +211,7 @@ footer {
     font-size: 1.3rem;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    margin: 4.8rem 20rem 3.6rem 0;
+    margin: 4.8rem 0 3.6rem 0;
 }
 
 .footer-links a {
@@ -228,6 +223,8 @@ footer {
     color: #2D2641;
     margin-bottom: 1.6rem;
 }
+
+
 
 
 
