@@ -338,29 +338,25 @@ h1 {
 
 
 footer {
-    background: #FAFAFA url('../images/bg-pattern-footer-desktop.svg') no-repeat;
+    background: #FAFAFA url('../images/bg-pattern-footer-mobile.svg') no-repeat;
 }
 
 .footer-top {
     display: flex;
-    justify-content: space-between;
-    padding: 6.4rem 0 3.3rem 0;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8rem 0 ;
     border-bottom: 1px solid #DADADA;
 }
 
 .social-icon {
-    margin-right: 1.6rem;   
+    margin: 1.6rem;   
 }
-
-.social:hover {
-    cursor: pointer;
-    fill: #2C2830;;
-}
-
 
 .footer-links {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     padding-bottom: 6.4rem;
 }
 
@@ -368,7 +364,7 @@ footer {
     font-size: 1.3rem;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    margin: 4.8rem 0 3.6rem 0;
+    margin: 4rem 0 3.6rem 0;
 }
 
 .footer-links a {
