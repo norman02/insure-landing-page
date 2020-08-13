@@ -115,6 +115,10 @@ nav button:hover {
     display: none;
 }
 
+#menu-icon:hover {
+    cursor: pointer;
+}
+
 header {
     color: white;
     background: linear-gradient(to bottom, #2D2641 0%,#2D2641 75%,#2D2641 50%,white 50%,white 100%);  
