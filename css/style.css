@@ -45,23 +45,25 @@ ul {
     list-style-type: none;
 }
 
-nav a,
-nav button {
+a {
     text-decoration: none;
-    margin-left: 2.4rem;
+}
+
+a,
+button {
     font-weight: 700;
     font-size: 1.3rem;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+}
+
+nav a,
+nav button {
+    margin-left: 2.4rem;
     color: #837D88
 }
 
 button {
-    font-size: 1.3rem;
-    letter-spacing: 1.5px;
-    font-family: 'Karla', sans-serif; 
-    font-weight: 700; 
-    text-transform: uppercase;
     width: 146px;
     height: 40px;
     background-color: transparent;
@@ -224,6 +226,167 @@ footer {
     margin-bottom: 1.6rem;
 }
 
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 1150px) {
+
+.desktop {
+    display: none;
+}
+
+.mobile {
+    display: block;
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    margin: 0;
+    padding: 0 2.4rem;
+}
+
+.portrait {
+    margin-left: 0;
+    width: 100vw;
+}
+
+.intro {
+    color: white;
+    background: no-repeat #2D2641 url('../images/bg-pattern-intro-left-mobile.svg'); 
+    
+}
+
+.mob-right {
+    display: block;
+    height: 351px;
+    
+    margin-top: -150px;
+    background: bottom right no-repeat transparent url('../images/bg-pattern-intro-right-mobile.svg');
+}
+
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 4.8rem;
+    letter-spacing: -0.67px;
+    line-height: 1;
+    margin: 9.3rem 0 1.6rem 0;
+}
+
+.intro button {
+    margin: 3.2rem 0 9.3rem 0;
+}
+
+.different {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.different .divider {
+    border-color: #C396C6;
+}
+
+.different h2 {
+    font-size: 4.8rem;
+    letter-spacing: -0.67px;
+    line-height: 1;
+    margin: 4.1rem 0 8rem 0;
+}
+
+.different ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 14rem;
+}
+
+.different li {
+    padding-right: 3rem;
+    width: 350px;
+}
+
+.different h3{
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.8rem;
+    font-weight: 400;
+    letter-spacing: -0.39px;
+    color: #2C2830;
+    margin: 3.2rem 0 1.6rem 0;
+}
+
+.find-out-more {
+    background: #2D2641 url('../images/bg-pattern-how-we-work-desktop.svg') no-repeat top right;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7rem;
+    margin-bottom: 16.5rem;
+}
+
+.find-out-more h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 5.6rem;
+    letter-spacing: -0.78px;
+    line-height: 1;
+}
+
+footer {
+    background: #FAFAFA url('../images/bg-pattern-footer-desktop.svg') no-repeat;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 6.4rem 0 3.3rem 0;
+    border-bottom: 1px solid #DADADA;
+}
+
+.social-icon {
+    margin-right: 1.6rem;   
+}
+
+.social:hover {
+    cursor: pointer;
+    fill: #2C2830;;
+}
+
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6.4rem;
+}
+
+.footer-links h2 {
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 4.8rem 0 3.6rem 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    color: #2D2641;
+    margin-bottom: 1.6rem;
+}
+
+
+
+
+
+
+}
 
 
 
