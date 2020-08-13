@@ -315,21 +315,27 @@ h1 {
 
 
 .find-out-more {
-    background: #2D2641 url('../images/bg-pattern-how-we-work-desktop.svg') no-repeat top right;
+    background: #2D2641 url('../images/bg-pattern-how-we-work-mobile.svg') no-repeat top right;
     color: white;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 7rem;
+    padding: 8rem 4rem;
     margin-bottom: 16.5rem;
+    
 }
 
 .find-out-more h2 {
     font-family: 'DM Serif Display', serif;
-    font-size: 5.6rem;
-    letter-spacing: -0.78px;
     line-height: 1;
+    font-size: 40px;
+    letter-spacing: -0.56px;
+    line-height: 40px;
+    margin-bottom: 4rem;
 }
+
+
 
 footer {
     background: #FAFAFA url('../images/bg-pattern-footer-desktop.svg') no-repeat;
