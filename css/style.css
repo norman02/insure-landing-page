@@ -78,6 +78,10 @@ button:hover {
     color: #2C2830;
 }
 
+button {
+    outline: none;
+}
+
 nav button {
     color: #2C2830;
     border: 1.5px solid #2C2830;
@@ -86,6 +90,29 @@ nav button {
 nav button:hover {
     background-color: #2C2830;
     color: white;
+}
+
+.mobile-menue {
+    display: none;
+    background: no-repeat bottom right #2D2641 url('../images/bg-pattern-mobile-nav.svg');
+    height: 59rem;
+    
+}
+
+.mobile-menue ul {
+    padding-top: 4rem;
+}
+
+.mobile-menue li {
+    margin-bottom: 2.4rem;
+}
+
+.mobile-menue a {
+    color: white;
+}
+
+.menu {
+    display: none;
 }
 
 header {
